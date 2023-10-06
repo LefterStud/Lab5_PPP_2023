@@ -35,10 +35,6 @@ namespace Lab5
 
             schoolCommunity.EditSchoolCommunityMember(0, "NUOP", "Edit name");
             Console.WriteLine(schoolCommunity.SchoolCommunity[0]);
-            //foreach (var member in schoolCommunity.SchoolCommunity)
-            //{
-            //    Console.WriteLine("--------------------------------------------\n" + member);
-            //}
         }
     }
 }
